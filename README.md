@@ -20,12 +20,13 @@ I'm a Talent Acquisition Specialist who is learning Python from scratch and docu
 
 ## 💻 Mini Projects
 
-- 🎓 Student Management System
-- 🛒 Shopping Cart
-- 👨‍💼 Employee Rating System
-- 🏏 Cricket Scorecard
-- 📚 Library Management
-- 💼 Recruitment Screening System
+ 01 | Student Management System | functions, loops, input(), counters | ✅ Done |
+| 02 | Shopping Cart | lists, dictionaries, functions | ✅ Done |
+| 03 | Tech Recruiter Quiz | f-strings, enumerate, validation | ✅ Done |
+| 04 | Employee Rating System | if/elif, input(), while loop | 🔜 Coming |
+| 05 | Cricket Scorecard | lists, loops, counters | 🔜 Coming |
+| 06 | Library Management | dictionaries, functions, input() | 🔜 Coming |
+| 07 | Recruitment Screening System | pandas, DataFrames, automation | 🔜 Coming |
 
 ## 🎯 Goal
 
