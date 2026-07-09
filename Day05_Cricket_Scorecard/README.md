@@ -2,19 +2,23 @@
 
 ## 📖 Project Overview
 
-This is a Python mini project that simulates a simple cricket score card. The application stores player names and their runs, determines the batting performance category, and displays a complete score summary.
+This is my Python mini project that analyzes the performance of cricket players based on the runs they have scored.
 
-This project helped me practice Python functions, loops, dictionaries, and conditional statements.
+The application classifies each player as **Century**, **Half Century**, **Scored**, or **Duck**, and displays a summary report showing the total number of players in each category.
 
 ---
 
 ## ✨ Features
 
-- Stores multiple player details
-- Displays player name and runs scored
-- Categorizes batting performance
-- Generates a simple score card
-- Displays a summary of all players
+- Stores player details using a list of dictionaries
+- Calculates player performance based on runs scored
+- Categorizes players into:
+  - Century
+  - Half Century
+  - Scored
+  - Duck
+- Displays each player's result
+- Generates a summary report
 
 ---
 
@@ -24,30 +28,27 @@ This project helped me practice Python functions, loops, dictionaries, and condi
 - Functions
 - Lists
 - Dictionaries
-- Loops
-- Conditional Statements (`if-elif-else`)
-- Formatted Printing (f-strings)
+- For Loops
+- Conditional Statements (`if`, `elif`, `else`)
+- Counters
 
 ---
 
 ## 📸 Sample Output
 
 ```text
-Cricket Score Card
+Virat - Century
+Rohit - Half_Century
+Gill - Scored
+Dhoni - Century
+Hardik - Duck
 
----------------------------------
-Player : Virat
-Runs   : 92
-Rating : Excellent
-
-Player : Rohit
-Runs   : 45
-Rating : Average
-
-Player : Gill
-Runs   : 110
-Rating : Century
----------------------------------
+Summary Report
+----------------
+Total Century      : 2
+Total Half Century : 1
+Total Scored       : 1
+Total Duck         : 1
 ```
 
 ---
@@ -56,20 +57,21 @@ Rating : Century
 
 Through this project I learned:
 
-- Creating reusable functions
-- Working with dictionaries
-- Looping through multiple records
-- Using conditional statements for decision making
-- Displaying structured output using formatted strings
+- Creating and calling functions
+- Returning values using `return`
+- Working with lists of dictionaries
+- Using loops to process multiple records
+- Counting results using counters
+- Displaying formatted summary reports
 
 ---
 
 ## 🚀 Future Improvements
 
 - Accept player details from user input
-- Calculate strike rate
-- Display total team score
-- Count boundaries and sixes
+- Calculate total team score
+- Display highest run scorer
+- Sort players by runs scored
 - Save score card to a file
 
 ---
