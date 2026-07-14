@@ -32,10 +32,10 @@ Rather than building everything at once, I'm developing it incrementally—just 
 
 ---
 
-### 🔜 Version 3
+### ✅ Version 3
 - Search by Location
 - Search by Experience
-- Search by Notice Period
+- Search by CTC
 
 ---
 
