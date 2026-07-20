@@ -39,7 +39,7 @@ Rather than building everything at once, I'm developing it incrementally—just 
 
 ---
 
-### 🔜 Version 4
+### ✅ Version 4
 - Edit Candidate Details
 - Delete Candidate Records
 - Input Validation
