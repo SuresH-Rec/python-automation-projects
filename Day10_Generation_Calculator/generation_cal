@@ -1,0 +1,103 @@
+current_year = 2026
+counts = {
+    "Gen Alpha": 0,
+    "Gen Z": 0,
+    "Millennial": 0,
+    "Gen X": 0,
+    "Baby Boomer": 0,
+    "Silent Generation": 0
+}
+
+
+def get_generation(birth_year):
+    if birth_year >= 2013:
+        return "Gen Alpha"
+    elif birth_year >= 1997:
+        return "Gen Z"
+    elif birth_year >= 1981:
+        return "Millennial"
+    elif birth_year >= 1965:
+        return "Gen X"
+    elif birth_year >= 1946:
+        return "Baby Boomer"
+    else:
+        return "Silent Generation"
+
+
+total_people = int(input("How many people do you want to check? "))
+
+birth_years = []
+
+for i in range(total_people):
+    birth_year = int(input(f"Enter birth year of person {i + 1}: "))
+    birth_years.append(birth_year)
+
+
+print("\n========== RESULTS ==========")
+
+for i in range(total_people):
+    birth_year = birth_years[i]
+    age = current_year - birth_year
+    generation = get_generation(birth_year)
+
+    counts[generation] = counts[generation] + 1
+
+    print(f"Person {i + 1} | Age: {age} | Generation: {generation}")
+
+
+print("========== SUMMARY ==========")
+for generation, count in counts.items():
+    print(f"{generation}: {count}")
+print("==============================")
+
+current_year = 2026
+counts = {
+    "Gen Alpha": 0,
+    "Gen Z": 0,
+    "Millennial": 0,
+    "Gen X": 0,
+    "Baby Boomer": 0,
+    "Silent Generation": 0
+}
+
+
+def get_generation(birth_year):
+    if birth_year >= 2013:
+        return "Gen Alpha"
+    elif birth_year >= 1997:
+        return "Gen Z"
+    elif birth_year >= 1981:
+        return "Millennial"
+    elif birth_year >= 1965:
+        return "Gen X"
+    elif birth_year >= 1946:
+        return "Baby Boomer"
+    else:
+        return "Silent Generation"
+
+
+total_people = int(input("How many people do you want to check? "))
+
+birth_years = []
+
+for i in range(total_people):
+    birth_year = int(input(f"Enter birth year of person {i + 1}: "))
+    birth_years.append(birth_year)
+
+
+print("\n========== RESULTS ==========")
+
+for i in range(total_people):
+    birth_year = birth_years[i]
+    age = current_year - birth_year
+    generation = get_generation(birth_year)
+
+    counts[generation] = counts[generation] + 1
+
+    print(f"Person {i + 1} | Age: {age} | Generation: {generation}")
+
+
+print("========== SUMMARY ==========")
+for generation, count in counts.items():
+    print(f"{generation}: {count}")
+print("==============================")
