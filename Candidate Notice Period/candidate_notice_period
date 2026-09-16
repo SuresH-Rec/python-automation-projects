@@ -1,0 +1,27 @@
+# Candidate Notice Period Checker
+
+candidates = [
+    {"name": "Rahul", "skill": "Python", "notice": 15},
+    {"name": "Priya", "skill": "Power BI", "notice": 30},
+    {"name": "Arjun", "skill": "Automation Anywhere", "notice": 45},
+    {"name": "Sneha", "skill": "UiPath", "notice": 10}
+]
+
+max_notice = int(input("Enter maximum notice period (days): "))
+
+print("\nEligible Candidates")
+print("-" * 30)
+
+found = False
+
+for candidate in candidates:
+    if candidate["notice"] <= max_notice:
+        print(
+            f"{candidate['name']} | "
+            f"{candidate['skill']} | "
+            f"{candidate['notice']} days"
+        )
+        found = True
+
+if not found:
+    print("No eligible candidates found.")
